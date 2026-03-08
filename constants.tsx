@@ -9,20 +9,20 @@ export const NAV_ITEMS: NavItem[] = [
 ];
 
 export const HERO_IMAGES = [
-  'https://res.cloudinary.com/dihkqwd43/image/upload/v1772933694/S2_vfdkqs.jpg',
-  'https://res.cloudinary.com/dihkqwd43/image/upload/v1772713173/S1_r5jplr.jpg',
-  'https://res.cloudinary.com/dihkqwd43/image/upload/v1772713181/B2_iqcx17.jpg',
-  'https://res.cloudinary.com/dihkqwd43/image/upload/v1772713182/B1_xlx2bi.jpg',
-  'https://res.cloudinary.com/dihkqwd43/image/upload/v1772713173/H2_psxg4f.jpg',
-  'https://res.cloudinary.com/dihkqwd43/image/upload/v1772713174/H1_wa2duo.jpg',
-  'https://res.cloudinary.com/dihkqwd43/image/upload/v1772713178/Ch2_uc3bbz.jpg',
-  'https://res.cloudinary.com/dihkqwd43/image/upload/v1772713178/Ch1_fjalvh.jpg',
-  'https://res.cloudinary.com/dihkqwd43/image/upload/v1772713171/AI-2_vhzopl.jpg',
-  'https://res.cloudinary.com/dihkqwd43/image/upload/v1772713173/AI-1_ahc8cm.jpg',
-  'https://res.cloudinary.com/dihkqwd43/image/upload/v1772713172/R2_uiuftg.jpg',
-  'https://res.cloudinary.com/dihkqwd43/image/upload/v1772713177/R1_obydwt.jpg',
-  'https://res.cloudinary.com/dihkqwd43/image/upload/v1772933916/14_bivqpr.jpg',
-  'https://res.cloudinary.com/dihkqwd43/image/upload/v1772934297/13_nvccxr.jpg',
+  'https://res.cloudinary.com/dihkqwd43/image/upload/f_auto,q_auto/v1772933694/S2_vfdkqs.jpg',
+  'https://res.cloudinary.com/dihkqwd43/image/upload/f_auto,q_auto/v1772713173/S1_r5jplr.jpg',
+  'https://res.cloudinary.com/dihkqwd43/image/upload/f_auto,q_auto/v1772713181/B2_iqcx17.jpg',
+  'https://res.cloudinary.com/dihkqwd43/image/upload/f_auto,q_auto/v1772713182/B1_xlx2bi.jpg',
+  'https://res.cloudinary.com/dihkqwd43/image/upload/f_auto,q_auto/v1772713173/H2_psxg4f.jpg',
+  'https://res.cloudinary.com/dihkqwd43/image/upload/f_auto,q_auto/v1772713174/H1_wa2duo.jpg',
+  'https://res.cloudinary.com/dihkqwd43/image/upload/f_auto,q_auto/v1772713178/Ch2_uc3bbz.jpg',
+  'https://res.cloudinary.com/dihkqwd43/image/upload/f_auto,q_auto/v1772713178/Ch1_fjalvh.jpg',
+  'https://res.cloudinary.com/dihkqwd43/image/upload/f_auto,q_auto/v1772713171/AI-2_vhzopl.jpg',
+  'https://res.cloudinary.com/dihkqwd43/image/upload/f_auto,q_auto/v1772713173/AI-1_ahc8cm.jpg',
+  'https://res.cloudinary.com/dihkqwd43/image/upload/f_auto,q_auto/v1772713172/R2_uiuftg.jpg',
+  'https://res.cloudinary.com/dihkqwd43/image/upload/f_auto,q_auto/v1772713177/R1_obydwt.jpg',
+  'https://res.cloudinary.com/dihkqwd43/image/upload/f_auto,q_auto/v1772933916/14_bivqpr.jpg',
+  'https://res.cloudinary.com/dihkqwd43/image/upload/f_auto,q_auto/v1772934297/13_nvccxr.jpg',
 ];
 
 export const PROJECTS: Project[] = [
