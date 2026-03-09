@@ -34,24 +34,30 @@ const FeaturedCarousel: React.FC<FeaturedCarouselProps> = ({ images }) => {
         onMouseEnter={() => setIsPaused(true)}
         onMouseLeave={() => setIsPaused(false)}
       >
-        {images.map((img, index) => (
-          <div 
-            key={index}
-            className={`relative w-full aspect-[4/3] cursor-pointer transition-all duration-300 ${
-              currentIndex === index 
-                ? 'opacity-100 ring-2 ring-inset ring-black dark:ring-white z-10' 
-                : 'opacity-[0.65] hover:opacity-[0.85]'
-            }`}
-            onClick={() => handleThumbnailClick(index)}
-          >
-            <img 
-              src={img} 
-              alt={`Thumbnail ${index + 1}`} 
-              className="w-full h-full object-cover"
-              loading="lazy"
-            />
-          </div>
-        ))}
+        {images.map((img, index) => {
+          // Inject w_300 for thumbnail optimization
+          const thumbSrc = img.includes('/upload/f_auto,q_auto/') 
+            ? img.replace('/upload/f_auto,q_auto/', '/upload/w_300,f_auto,q_auto/') 
+            : img.replace('/upload/', '/upload/w_300/');
+
+          return (
+            <div 
+              key={index}
+              className={`relative w-full aspect-[4/3] cursor-pointer transition-all duration-300 ${
+                currentIndex === index 
+                  ? 'opacity-100 ring-2 ring-inset ring-black dark:ring-white z-10' 
+                  : 'opacity-[0.65] hover:opacity-[0.85]'
+              }`}
+              onClick={() => handleThumbnailClick(index)}
+            >
+              <img 
+                src={thumbSrc} 
+                alt={`Thumbnail ${index + 1}`} 
+                className="w-full h-full object-cover"
+              />
+            </div>
+          );
+        })}
       </div>
 
       {/* Right Column - Main Image */}
